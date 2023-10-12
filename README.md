@@ -28,7 +28,7 @@ This guide provides the cut-and-dry steps that we will walk through during the G
 10. Click the `Details` link next to the status check
 11. Expand the `Vulnerabilities` tab to see the net new vulnerabilities that were introduced by the code change
 12. Click the `GHSA` links to see more details about the vulnerabilities
-13. Note the patched version of `2.17.1`
+13. Note the patched version of `2.17.1` in `GHSA-8489-44mv-ggj8`
 14. Navigate back to the **Code** tab, then to the pom.xml file
 15. _**Ensure that your branch is set to the patch branch you created earlier**_
 16. Modify the file and change the version to `2.17.1` and commit the change to your patch branch
