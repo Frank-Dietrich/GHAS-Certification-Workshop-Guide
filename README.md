@@ -33,3 +33,19 @@ This guide provides the cut-and-dry steps that we will walk through during the G
 17. Navigate to the **Pull requests** tab and open the pull request that you created earlier
 18. The Dependency Review workflow should have been retriggered
 19. Monitor the result (it should now pass)
+
+# Module 3
+1. Navigate to the `ghas-bootcamp-javascript` repository
+2. Navigate to the **Settings** tab --> **Code security and analysis**
+3. In the **Secret scanning** section, click **Enable**
+4. Navigate to the **Security** tab --> **Secret scanning** to look at the 4 alerts (you may need to refresh the page)
+5. Note the false positive found in the `bad-practice-example.md` file (it's been revoked)
+6. Navigate to the **Code** tab --> `.github` --> `secret_scanning.yml`
+7. Uncomment lines 1-2 and commit the changes to the `main` branch
+8. Navigate back to the **Security** tab --> **Secret scanning** and notice that the `GitHub Personal Access Token` alert has been removed
+9. Navigate to the **Settings** tab --> **Code security and analysis**
+10. In the **Secret scanning** section, click **New pattern**
+11. Provide a name for the pattern (e.g. `my pattern`) and use the following secret format: `password = \w+`
+12. Click **Save and dry run**
+13. Under **Dry run** click the **Reload** button that appears, then click **Publish pattern**
+14. Navigate to the **Security** tab --> **Secret scanning** to look at the new alert that was found
