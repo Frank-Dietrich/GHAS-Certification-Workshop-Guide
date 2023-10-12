@@ -14,6 +14,7 @@ This guide provides the cut-and-dry steps that we will walk through during the G
 10. Navigate to the repository's **Settings** tab --> **Code security & analysis**
 11. Notice that **Dependency Graph is always on by default**, **there is no Advanced Security button**, (it's not needed to enable secret scanning & code scanning for public repos), and **Secret scanning sends alerts to partners by default**
 12. Navigate back to the organization's **Settings** tab --> **Code Security and analysis** and click **Enable all** for _Dependency graph_, _Dependablot alerts_, _Dependabot security updates_, and _GitHub Advanced Security_.
+13. 🎉Congratulations!🎉 you enabled Dependabot and Advanced Security for all of the repositories in your organization 🚀
 
 # Module 2 - Supply Chain Security
 1. Navigate to the `ghas-bootcamp-webgoat` repository
@@ -56,6 +57,7 @@ This guide provides the cut-and-dry steps that we will walk through during the G
 14. Click **Save and dry run**
 15. Under the **Dry run** section, click the **Reload** button, then click **Publish pattern**
 16. Navigate to the **Security** tab --> **Secret scanning** to look at the new alert that was found
+17. 🎉Congratulations!🎉 you ignored a file with a `secret_scanning.yml` configuration and created your own custom pattern 🚀
 
 # Module 4 - Code Scanning
 
