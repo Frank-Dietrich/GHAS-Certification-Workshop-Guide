@@ -17,7 +17,7 @@ This guide provides the cut-and-dry steps that we will walk through during the G
 
 # Module 2 - Supply Chain Security
 1. Navigate to the `ghas-bootcamp-webgoat` repository
-2. Navigate to the **Security** tab --> **Dependabot alerts** and select one of the alerts, view the details in the alert
+2. Navigate to the **Security** tab --> **Dependabot alerts** and select the `Apache Commons Compress denial of service vulnerability` alert
 3. Click the **Actions** tab, click **New workflow** and search for `Dependency Review`
 4. Click **Configure**
 5. View the workflow template, and then select **Cancel changes** (the workflow already exists in the repository)
