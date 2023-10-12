@@ -37,6 +37,7 @@ This guide provides the cut-and-dry steps that we will walk through during the G
 19. Navigate to the **Pull requests** tab and open the pull request that you created earlier: `Update pom.xml`
 20. The Dependency Review workflow should have been retriggered
 21. Monitor the result (it should now pass)
+22. 🎉Congratulations!🎉 you caught and fixed a vulnerability in your pull request with Dependency Review 🚀
 
 # Module 3 - Secret Scanning
 1. Navigate to the `ghas-bootcamp-javascript` repository
