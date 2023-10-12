@@ -9,7 +9,7 @@ This guide provides the cut-and-dry steps that we will walk through during the G
 5. Ensure the organization has `5` repositories
 6. In the `ghas-bootcamp-webgoat` repository, go to **Settings** -> **Code security and analysis** and then click **Enable** for _Dependency graph_, _Dependabot alerts_, _Dependabot security updates_, and **GitHub Advanced Security**
 7. Navigate back to the organization's **Repositories** tab, and click **New repository**
-8. Name the repository `public-repo` with the visibility option set to `public` and the `Add a README file` box **checked**
+8. Name the repository `public-repo` with the visibility option set to `Public` and the `Add a README file` box **checked**
 9. Navigate to the repository's settings tab and view the Code security & analysis page
 10. Notice that **Dependency Graph is always on by default**, **there is no Advanced Security button**, (it's not needed to enable secret scanning & code scanning for public repos), **Secret scanning sends alerts to partners by default**
 11. Navigate back to the organization and then Settings -> Code Security and Analysis and click Enable all for _Dependency graph_, _Dependablot alerts_, _Dependabot security updates_, and _GitHub Advanced Security_.
