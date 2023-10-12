@@ -47,7 +47,7 @@ This guide provides the cut-and-dry steps that we will walk through during the G
 5. Note the false positive found in the `bad-practice-example.md` file (it's been revoked)
 6. Navigate to the **Code** tab --> `.github` --> `secret_scanning.yml`
 7. Select the pen "Edit this file" button
-8. Uncomment lines 1-2 and commit the changes to the `main` branch
+8. Uncomment `lines 1-2` and commit the changes to the `main` branch
 9. Navigate back to the **Security** tab --> **Secret scanning** and notice that the `GitHub Personal Access Token` alert has been removed
 10. Navigate to the **Settings** tab --> **Code security and analysis**
 11. In the **Secret scanning** section, click **New pattern**
