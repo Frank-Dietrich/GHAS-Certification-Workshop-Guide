@@ -34,7 +34,7 @@ This guide provides the cut-and-dry steps that we will walk through during the G
 16. Select the pen "Edit this file" button
 17. Scroll back down to (roughly) `line 158` and edit the version of `log4j-core` to `2.17.1`
 18. Commit the change directly to your **_patch branch from earlier_**
-19. Navigate to the **Pull requests** tab and open the pull request that you created earlier
+19. Navigate to the **Pull requests** tab and open the pull request that you created earlier: `Update pom.xml`
 20. The Dependency Review workflow should have been retriggered
 21. Monitor the result (it should now pass)
 
