@@ -54,7 +54,7 @@ This guide provides the cut-and-dry steps that we will walk through during the G
 12. Provide a name for the pattern (e.g. `my pattern`) and use the following secret format: `password = \w+`
 13. Enter a test string that matches the pattern (e.g. `password = abc123`)
 14. Click **Save and dry run**
-15. Under **Dry run** click the **Reload** button that appears, then click **Publish pattern**
+15. Under the **Dry run** section, click the **Reload** button that appears, then click **Publish pattern**
 16. Navigate to the **Security** tab --> **Secret scanning** to look at the new alert that was found
 
 # Module 4 - Code Scanning
