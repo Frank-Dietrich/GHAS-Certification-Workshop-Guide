@@ -1,7 +1,7 @@
 # Overview
 This guide provides the cut-and-dry steps that we will walk through during the GitHub Advanced Security Certification Workshop.
 
-# Module 1
+# Module 1 - Enabling Features
 1. Sign in to github.com
 2. Click on your avatar in the top right corner
 3. Click on `Your organizations`
@@ -15,7 +15,7 @@ This guide provides the cut-and-dry steps that we will walk through during the G
 11. Notice that **Dependency Graph is always on by default**, **there is no Advanced Security button**, (it's not needed to enable secret scanning & code scanning for public repos), and **Secret scanning sends alerts to partners by default**
 12. Navigate back to the organization's **Settings** tab --> **Code Security and analysis** and click **Enable all** for _Dependency graph_, _Dependablot alerts_, _Dependabot security updates_, and _GitHub Advanced Security_.
 
-# Module 2
+# Module 2 - Supply Chain Security
 1. Navigate to the `ghas-bootcamp-webgoat` repository
 2. Navigate to the **Security** tab --> **Dependabot alerts** and select one of the alerts, view the details in the alert
 3. Click the **Actions** tab, click **New workflow** and search for `Dependency Review`
@@ -36,7 +36,7 @@ This guide provides the cut-and-dry steps that we will walk through during the G
 18. The Dependency Review workflow should have been retriggered
 19. Monitor the result (it should now pass)
 
-# Module 3
+# Module 3 - Secret Scanning
 1. Navigate to the `ghas-bootcamp-javascript` repository
 2. Navigate to the **Settings** tab --> **Code security and analysis**
 3. In the **Secret scanning** section, click **Enable**
@@ -51,3 +51,7 @@ This guide provides the cut-and-dry steps that we will walk through during the G
 12. Click **Save and dry run**
 13. Under **Dry run** click the **Reload** button that appears, then click **Publish pattern**
 14. Navigate to the **Security** tab --> **Secret scanning** to look at the new alert that was found
+
+# Module 4 - Code Scanning
+
+# Module 5 - Administration
