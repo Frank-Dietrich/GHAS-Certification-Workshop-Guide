@@ -31,10 +31,12 @@ This guide provides the cut-and-dry steps that we will walk through during the G
 13. Note the patched version of `2.17.1` in `GHSA-8489-44mv-ggj8`
 14. Navigate back to the **Code** tab, then to the pom.xml file
 15. _**Set your branch to the patch branch you created earlier**_
-16. Modify the file and change the version to `2.17.1` and commit the change to your patch branch
-17. Navigate to the **Pull requests** tab and open the pull request that you created earlier
-18. The Dependency Review workflow should have been retriggered
-19. Monitor the result (it should now pass)
+16. Select the pen "Edit this file" button
+17. Scroll back down to (roughly) `line 158` and edit the version of `log4j-core` to `2.17.1`
+18. Commit the change directly to your **_patch branch from earlier_**
+19. Navigate to the **Pull requests** tab and open the pull request that you created earlier
+20. The Dependency Review workflow should have been retriggered
+21. Monitor the result (it should now pass)
 
 # Module 3 - Secret Scanning
 1. Navigate to the `ghas-bootcamp-javascript` repository
