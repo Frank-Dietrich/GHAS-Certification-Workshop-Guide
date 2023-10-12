@@ -44,7 +44,7 @@ This guide provides the cut-and-dry steps that we will walk through during the G
 2. Navigate to the **Settings** tab --> **Code security and analysis**
 3. In the **Secret scanning** section, click **Enable**
 4. Navigate to the **Security** tab --> **Secret scanning** to look at the 4 alerts (you may need to refresh the page)
-5. Note the false positive found in the `bad-practice-example.md` file (it's been revoked)
+5. Note the false positive (`GitHub Personal Access Token`) found in the `bad-practice-example.md` file (it's been revoked)
 6. Navigate to the **Code** tab --> `.github` --> `secret_scanning.yml`
 7. Select the pen "Edit this file" button
 8. Uncomment `lines 1-2` and commit the changes to the `main` branch
